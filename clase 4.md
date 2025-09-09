@@ -19,4 +19,4 @@ vectores de movimiento ?
 
 mapas, flechas hacia los lugares hacia donde se transportaba
 
-y eso lo hacia en google colab ?
+y eso lo hacía en google colab ?

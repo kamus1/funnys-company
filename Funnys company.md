@@ -1,3 +1,5 @@
+#### Este modelo consideraba que se podían abrir y cerrar fabricas, pero se encontró que no había ninguna razón para cerrar una y abrir otra fabrica debido a los costos de abrir una nueva.
+Por lo que este modelo solo aumentaba la complejidad de la definición del modelo.
 
 ### Parámetros o constantes
 $CF_{pc}$= Costo fijo de tener la planta p en la ciudad c, entre años es fijo.

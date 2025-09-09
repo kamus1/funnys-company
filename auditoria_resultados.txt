@@ -1,0 +1,68 @@
+=== Auditoría de Resultados del Modelo ===
+Estado del modelo: Optimal
+Valor objetivo (costo total): 619,887,317.12
+
+Plantas abiertas:
+  Ciudad 3 (Santiago): Pequeña
+  Ciudad 4 (Rancagua): Pequeña
+
+Costos:
+  Apertura+Fijos (3 años): 232,892,989.00
+  Producción:              350,295,704.67
+  Transporte:              36,698,623.45
+  Total (recalc):          619,887,317.12
+  Total (objetivo):        619,887,317.12
+
+Satisfacción de Demanda (Región, Año):
+  R1, Año 1: Enviado=1,104,061  Demanda=1,104,060  Gap=0.8400
+  R1, Año 2: Enviado=1,280,710  Demanda=1,280,710  Gap=0.2144
+  R1, Año 3: Enviado=1,485,624  Demanda=1,485,623  Gap=0.6487
+  R2, Año 1: Enviado=1,180,185  Demanda=1,180,184  Gap=0.9200
+  R2, Año 2: Enviado=1,439,825  Demanda=1,439,825  Gap=0.4224
+  R2, Año 3: Enviado=1,756,586  Demanda=1,756,586  Gap=0.0153
+  R3, Año 1: Enviado=645,185  Demanda=645,184  Gap=0.7400
+  R3, Año 2: Enviado=812,933  Demanda=812,932  Gap=0.8324
+  R3, Año 3: Enviado=1,024,295  Demanda=1,024,295  Gap=0.4688
+  R4, Año 1: Enviado=444,186  Demanda=444,185  Gap=0.8000
+  R4, Año 2: Enviado=510,813  Demanda=510,813  Gap=0.0200
+  R4, Año 3: Enviado=587,435  Demanda=587,435  Gap=0.0730
+  R5, Año 1: Enviado=1,315,182  Demanda=1,315,182  Gap=0.1400
+  R5, Año 2: Enviado=1,828,103  Demanda=1,828,103  Gap=0.2146
+  R5, Año 3: Enviado=2,541,063  Demanda=2,541,063  Gap=0.1283
+  R6, Año 1: Enviado=394,479  Demanda=394,478  Gap=0.5000
+  R6, Año 2: Enviado=512,823  Demanda=512,822  Gap=0.9500
+  R6, Año 3: Enviado=666,669  Demanda=666,669  Gap=0.3350
+
+Utilización de Capacidad (Ciudad, Tipo, Año):
+  Santiago     | Peq | Año 1: Prod=446,832  Cap=4,636,446  Util=  9.6%
+  Santiago     | Peq | Año 2: Prod=1,748,761  Cap=4,636,446  Util= 37.7%
+  Santiago     | Peq | Año 3: Prod=3,425,226  Cap=4,636,446  Util= 73.9%
+  Rancagua     | Peq | Año 1: Prod=4,636,446  Cap=4,636,446  Util=100.0%
+  Rancagua     | Peq | Año 2: Prod=4,636,446  Cap=4,636,446  Util=100.0%
+  Rancagua     | Peq | Año 3: Prod=4,636,446  Cap=4,636,446  Util=100.0%
+
+Envíos positivos (origen→región | modo | año | tipo):
+  Santiago     → R1 | AT2 | Año 1 | Peq: 2,646
+  Santiago     → R1 | AT2 | Año 2 | Peq: 1,237,948
+  Santiago     → R1 | AT2 | Año 3 | Peq: 1,485,624
+  Santiago     → R4 | AT1 | Año 1 | Peq: 444,186
+  Santiago     → R4 | AT1 | Año 2 | Peq: 510,813
+  Santiago     → R4 | AT1 | Año 3 | Peq: 587,435
+  Santiago     → R5 | AT1 | Año 3 | Peq: 1,352,167
+  Rancagua     → R1 | AT2 | Año 1 | Peq: 1,101,415
+  Rancagua     → R1 | AT2 | Año 2 | Peq: 42,762
+  Rancagua     → R2 | AT1 | Año 1 | Peq: 1,180,185
+  Rancagua     → R2 | AT1 | Año 2 | Peq: 1,439,825
+  Rancagua     → R2 | AT1 | Año 3 | Peq: 1,756,586
+  Rancagua     → R3 | AT2 | Año 1 | Peq: 645,185
+  Rancagua     → R3 | AT2 | Año 2 | Peq: 812,933
+  Rancagua     → R3 | AT2 | Año 3 | Peq: 1,024,295
+  Rancagua     → R5 | AT3 | Año 1 | Peq: 1,315,182
+  Rancagua     → R5 | AT3 | Año 2 | Peq: 1,828,103
+  Rancagua     → R5 | AT3 | Año 3 | Peq: 1,188,896
+  Rancagua     → R6 | AT1 | Año 1 | Peq: 394,479
+  Rancagua     → R6 | AT1 | Año 2 | Peq: 512,823
+  Rancagua     → R6 | AT1 | Año 3 | Peq: 666,669
+
+Chequeo: producción solo donde hay planta:
+  OK: no hay producción en tipos/ciudades sin planta instalada.
